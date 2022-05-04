@@ -14,7 +14,7 @@ Recent advances in single-cell RNA sequencing technology provided unprecedented 
 The python packages needed for the analysis are in the requirement.txt file. They can be installed by executing:
 
 ```
-cat requirements.txt | xargs -n 1 pip install
+pip install -r requirements.txt
 ```
 
 ### Original Paper
